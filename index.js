@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     res.status(200).send(`
-        <div style="background-color: blue; color: white;">
-            <h1>Using HTML, my dear friends!</h1>
+        <div style="background-color: purple; color: white;">
+            <h1>Hall-Booking</h1>
         </div>
     `);
 });
